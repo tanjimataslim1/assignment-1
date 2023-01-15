@@ -13,6 +13,7 @@ header {
 .banner {
     text-align: right;
     display: block;
+
 }
 
 .banner-title {
@@ -23,6 +24,8 @@ header {
     height: 228px;
     margin-left: 845px;
     color: #151414;
+    padding-top: 220px;
+    padding-bottom: 20px;
 }
 
 .banner-description {
@@ -85,6 +88,8 @@ header {
     list-style: none;
     display: block;
     width: 400px;
+    color: #444343;
+
 }
 
 .person-description ul li {
@@ -102,4 +107,156 @@ header {
     color: #151414;
     text-align: center;
     margin-top: 250px;
+}
+
+.second-section {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
+    gap: 100px;
+    text-align: center;
+}
+
+
+.second-title {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.second-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.gradient {
+    margin-left: 230px;
+    margin-top: 124.04px;
+    border-radius: 8px;
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    background-blend-mode: screen;
+    width: 1140px;
+    height: 300px;
+}
+
+.gradient-title {
+    margin-left: 60px;
+    padding-top: 64px;
+    color: red;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.gradient-title button {
+    color: red;
+    ;
+    width: 160px;
+    height: 64px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    margin-top: 24px;
+}
+
+/* Extra */
+
+
+.extra-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin: 60px;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 210px;
+    background-color: gray;
+
+}
+
+.extra div {
+    height: 400px;
+    width: 550px;
+}
+
+.extra>div>h2 {
+    padding: 30px 0px;
+}
+
+/* Footer */
+
+.footer {
+
+    display: flex;
+    padding-left: 230px;
+    gap: 330px;
+    background-color: #151414;
+    text-align: left;
+}
+
+.footer-title {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer p,
+span {
+    width: 485px;
+    height: 78px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.footer-image {
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+#footer-div1 {
+    width: 485px;
+    height: 317px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+#footer-div2 {
+    margin-top: 40px;
+    width: 325px;
+    height: 204px;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+
+#Email {
+    background-color: black;
+    color: white;
+    width: 325px;
+    height: 64px;
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 24px;
+}
+
+.footer-button {
+    margin-top: 16px;
+    width: 170.11px;
+    height: 64px;
+    color: #F15B22;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 8px;
 }
