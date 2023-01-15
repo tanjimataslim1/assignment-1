@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 809px;
+    width: auto;
+}
+
+.banner {
+    text-align: right;
+    display: block;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #444343;
+    width: 525px;
+    height: 228px;
+    margin-left: 845px;
+    color: #151414;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    width: 494px;
+    height: 78px;
+    margin-left: 876px;
+}
+
+.btn-primary {
+    background: #F15B22;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 64px;
+    padding: 20px 25px;
+    margin-right: 130px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* main */
+
+.first-section {
+    display: flex;
+    width: 1072px;
+    height: 723.3px;
+    text-align: left;
+}
+
+.img-person {
+    width: 569px;
+    height: 723.3px;
+    margin-top: 130px;
+    margin-left: 206px;
+}
+
+.person-description {
+    margin-top: 370px;
+    width: 416px;
+    height: 400px;
+}
+
+.person-description h1 {
+    margin-bottom: 24px;
+    color: #151414;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.person-description p {
+    margin-bottom: 16px;
+    color: #444343
+}
+
+.person-description ul {
+    list-style: none;
+    display: block;
+    width: 400px;
+}
+
+.person-description ul li {
+    margin: 5px;
+}
+
+.person-description ul li:before {
+    content: '✓';
+}
+
+.middle {
+    display: block;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-top: 250px;
+}
